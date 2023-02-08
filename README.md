@@ -49,5 +49,9 @@ Create a Repository
  ### Final Deployment
  
  We open our project terminal and run the command npm run deploy which will deploy the website in github pages
+ 
+ ### Time took to complete the project
+ 
+ The Total time took to commplete this project is 5hrs
 
 
