@@ -16,7 +16,7 @@ You may also see any lint errors in the console.
 
 Here we used CardsGrid as a component to display user data as cards 
 
-###To Fetch API Data
+### To Fetch API Data
 
 The Fetch API provides a JavaScript interface for accessing and manipulating parts of the HTTP pipeline, such as requests and responses.It also provides a global fetch() method that provides an easy, logical way to fetch resources asynchronously across the network.By using this method we will be able to fetch the data form the api
 
@@ -25,6 +25,7 @@ Create React App doesn't include page routing.So we use react-router-dom npm pac
 
 ### Deploying Website on Github Pages
 Create a Repository 
+```
 1)git init-To initialize git 
 2)gid add .-command to add all files
 3)git commit -m "first commit"-to commit file changes
@@ -32,15 +33,16 @@ Create a Repository
   git remote add orgin https//:github.com/VDeepthi11/react-assignment.git
   git push -u origin main
  4)npm i gh-pages-To install github pages
- 
+ ```
  ### Making changes in package.json file
  
- We add at start code "homepage":"https://vddepthi11.github.io/react-assignment
+ We add at start code "homepage":"https://vdeepthi11.github.io/react-assignment
+ ```
  next script
  We add two commands in scripts section
  "predeploy":"npm run build",
  "deploy":"gh-pages -d build",
- 
+ ```
  ### Final Deployment
  
  We open our project terminal and run the command npm run deploy which will deploy the website in github pages
