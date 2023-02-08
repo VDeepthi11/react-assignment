@@ -36,8 +36,10 @@ Create a Repository
  ```
  ### Making changes in package.json file
  
- We add at start code "homepage":"https://vdeepthi11.github.io/react-assignment
-
+ We add this code at start
+ ```
+ "homepage":"https://vdeepthi11.github.io/react-assignment
+```
  next script
  We add two commands in scripts section
   ```
