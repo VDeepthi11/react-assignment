@@ -1,10 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+We Create Project by running the npx create-react-app and we give it a project name after downloading the required packages we can start the project by using npm start command
 
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
@@ -14,57 +11,38 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Created Components For Cards For User Data
 
-### `npm run build`
+Here we used CardsGrid as a component to display user data as cards 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+###To Fetch API Data
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The Fetch API provides a JavaScript interface for accessing and manipulating parts of the HTTP pipeline, such as requests and responses.It also provides a global fetch() method that provides an easy, logical way to fetch resources asynchronously across the network.By using this method we will be able to fetch the data form the api
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### To Navigate to users page
+Create React App doesn't include page routing.So we use react-router-dom npm package as it can be used to navigate through pages we install it by using the npm install package 
 
-### `npm run eject`
+### Deploying Website on Github Pages
+Create a Repository 
+1)git init-To initialize git 
+2)gid add .-command to add all files
+3)git commit -m "first commit"-to commit file changes
+  git branch -M main-to change branch
+  git remote add orgin https//:github.com/VDeepthi11/react-assignment.git
+  git push -u origin main
+ 4)npm i gh-pages-To install github pages
+ 
+ ### Making changes in package.json file
+ 
+ We add at start code "homepage":"https://vddepthi11.github.io/react-assignment
+ next script
+ We add two commands in scripts section
+ "predeploy":"npm run build",
+ "deploy":"gh-pages -d build",
+ 
+ ### Final Deployment
+ 
+ We open our project terminal and run the command npm run deploy which will deploy the website in github pages
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
